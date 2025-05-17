@@ -11,10 +11,6 @@ La contenerización permite que los desarrolladores eviten el clásico problema 
 
 Para construir la imagen se escribe un archivo llamado Dockerfile, donde se describen los pasos necesarios para crear el contenedor, desde copiar archivos hasta ejecutar comandos. Esto permite reproducir y compartir la configuración exacta del entorno.
 
-Figura 1. Arquitectura básica de contenedores Docker para aplicaciones frontend con React y Nginx.
-<img src="image.png" alt="Paso2" width="800">
-Fuente: Docker.com
-
 En esta práctica también se usó un backend simulado para pruebas, corriendo en un contenedor aparte o localmente, lo que permite separar responsabilidades y facilita el desarrollo y prueba de la interfaz frontend.
 
 
